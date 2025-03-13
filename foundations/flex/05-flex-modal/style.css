@@ -20,6 +20,30 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 10px;
+  padding: 1rem;
+}
+
+.container
+{
+  display: flex;
+  flex-direction: column;
+}
+
+#choices
+{
+  margin-top: 16px;
+}
+
+
+.header
+{
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
 .icon {
